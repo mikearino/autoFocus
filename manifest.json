@@ -4,6 +4,9 @@
   "description": "Focus on a window",
   "version": "0.0.0.1",
   "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "autoFocus.html",
     "default_icon": "autoFocus.png"
